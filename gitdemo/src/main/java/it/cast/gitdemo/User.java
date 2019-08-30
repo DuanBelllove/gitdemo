@@ -3,7 +3,7 @@ package it.cast.gitdemo;
 public class User {
 
     private String name;
-    private String address;
+    private Integer age;
 
     public String getName() {
         return name;
@@ -13,11 +13,11 @@ public class User {
         this.name = name;
     }
 
-    public String getAddress() {
-        return address;
+    public Integer getAge() {
+        return age;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }
